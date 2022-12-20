@@ -30,7 +30,7 @@ function getResult() {
     if(computerChoice === userChoice) {
         Result = 'Its a draw!'
     }
-    if(computerChoice === 'Rock' && userChoice === 'Paper') {
+    if(computerChoice === 'Rock' && userChoice === 'Paper') { 
         Result = 'You Win!'
     }
     if(computerChoice === 'Paper' && userChoice === 'Scissors') {
