@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}
+.intro {
+    text-align: center;
+    font-size: 1.5em;
+
+}
+.Operators {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.Operators {
+    width: fit-content;
+    height: 10rem;
+    border: solid 5px black;
+    margin: 50px auto;
+    background: red;
+}
+div.Weapons {
+
+}
+.Players-Move {
+    padding: 25px;
+    background: white;
+    margin: 5px;
+    border: solid 2px black;
+}
+.Computers-Move {
+    padding: 25px;
+    background: white;
+    margin: 5px;
+    border: solid 2px black;
+    margin-bottom: 25px
+}       
+.Results {
+    padding: 25px;
+    background: white;
+    margin: 5px;
+    margin-bottom: 25px;
+    border: solid 2px black;
+}
+.Weapons {
+    padding: 15px;
+    padding-right: 10px;
+    margin-left: 15px;
+}
+
