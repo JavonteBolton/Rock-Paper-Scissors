@@ -27,27 +27,27 @@ div.Operators {
 div.Weapons {
 
 }
-.Players-Move {
+#Players-Move {
     padding: 25px;
     background: white;
     margin: 5px;
     border: solid 2px black;
 }
-.Computers-Move {
+#Computers-Move {
     padding: 25px;
     background: white;
     margin: 5px;
     border: solid 2px black;
     margin-bottom: 25px
 }       
-.Results {
+#Results {
     padding: 25px;
     background: white;
     margin: 5px;
     margin-bottom: 25px;
     border: solid 2px black;
 }
-.Weapons {
+#Weapons {
     padding: 15px;
     padding-right: 10px;
     margin-left: 15px;
