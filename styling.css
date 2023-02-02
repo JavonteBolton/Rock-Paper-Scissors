@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: rgba(65, 65, 65, 0.374);
+    padding: 1rem
+    
+}
+
+nav  {
+    padding: 0.5rem;
+    display: inline;
+    width: 100%;
+}
+
+a {
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: white;
+    transition: 1s;
+    font-size: 1rem;
+}
+
+body {
+    background: rgba(128, 128, 128, 0.317);
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+
+.computer-header {
+    background-color: black;
+    color: white;
+}
+
+.player-header {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.result-header {
+    background-color: rgba(128, 128, 128, 0.425);
+    color: white;
+}
+
+.container {
+    text-align: center;
+
+
+}
+
+button {
+    background: rgba(0, 0, 0, 0.836);
+    color: white;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+
+button:hover {
+    background: rgba(255, 255, 255, 0.413);
+    color: rgb(0, 0, 0);
+    transition: ease-in-out 0.5s; 
+    transform:rotate(360deg);
+}
+
