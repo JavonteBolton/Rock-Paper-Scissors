@@ -1,55 +1,81 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-h1 {
-    text-align: center;
-    color: red;
-    font-weight: 700;
-}
-.intro {
-    text-align: center;
-    font-size: 1.5em;
 
+.header {
+    background: rgba(65, 65, 65, 0.374);
+    padding: 1rem
+    
 }
-.Operators {
-    text-align: center;
+
+nav  {
+    padding: 0.5rem;
+    display: inline;
+    width: 100%;
+}
+
+a {
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: white;
+    transition: 1s;
+    font-size: 1rem;
+}
+
+body {
+    background: rgba(128, 128, 128, 0.317);
+}
+
+
+h2 {
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin: 1rem;
+    padding: 1.5rem;
+    font-size: 2rem;
 }
-div.Operators {
-    width: fit-content;
-    height: 10rem;
-    border: solid 5px black;
-    margin: 50px auto;
-    background: red;
+
+.computer-header {
+    background-color: black;
+    color: white;
 }
-div.Weapons {
+
+.player-header {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.result-header {
+    background-color: rgba(128, 128, 128, 0.425);
+    color: white;
+}
+
+.container {
+    text-align: center;
+
 
 }
-#Players-Move {
-    padding: 25px;
-    background: white;
-    margin: 5px;
-    border: solid 2px black;
+
+button {
+    background: rgba(0, 0, 0, 0.836);
+    color: white;
+    font-size: 1.5rem;
+    padding: 5px;
 }
-#Computers-Move {
-    padding: 25px;
-    background: white;
-    margin: 5px;
-    border: solid 2px black;
-    margin-bottom: 25px
-}       
-#Results {
-    padding: 25px;
-    background: white;
-    margin: 5px;
-    margin-bottom: 25px;
-    border: solid 2px black;
-}
-#Weapons {
-    padding: 15px;
-    padding-right: 10px;
-    margin-left: 15px;
+
+
+button:hover {
+    background: rgba(255, 255, 255, 0.413);
+    color: rgb(0, 0, 0);
+    transition: ease-in-out 0.5s; 
+    transform:rotate(360deg);
 }
 

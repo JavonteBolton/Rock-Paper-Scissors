@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, Papers, Scissors</title>
-    <link rel="stylesheet" href="./game.css">
+    <title>GAME</title>
+    <link rel="stylesheet" href="./GAME.css">
 </head>
 <body>
     <div class="header">
-        <h1>Rock, Papers, Scissors!</h1>
+        <nav>
+            <a class = "CONTENT" href="#">CONTENT</a>
+            <a class = "BLOG" href="#">BLOG</a>
+            <a class = "HOME" href="#">HOME</a>
+        </nav>
     </div>
-    <div class="intro">
-    <p>Can you beat the evil machine that wants to destroy you in a classic game of rock papers scissors? <br>
-       Or not classic in this case, you know because of the battling the computer thing...</p>
+
+    <div class="game-ui">
+        <h2 class = "computer-header">Computer : <span id="computer-choice"></span></h2>
+       
+        <h2 class = "player-header">Player : <span id="player-choice"></span></h2>
+        
+        <h2 class = "result-header">Results : <span id="result-display"></span></h2>
     </div>
-    <div class="Operators">
-        <div class="players-choices">
-            <h2 id="Players-Move">Players Move</h2>
-            <button id="Rock">Rock</button>
-            <button id="Paper">Paper</button>
-            <button id="Scissors">Scissors</button>
-        </div>
-        <h2 id="Computers-Move">Computers Move</h2>
-        <h2 id= "Results">Results</h2>
+
+    <div class="container">
+        <button id="rock"> Rock</button>
+        <button id="paper"> Paper</button>
+        <button id="scissors"> Scissors</button>
     </div>
-    <script src="./rock-paper-scissors.js"></script>
+    <script src="./GAME.js" charset="utf-8"></script>
 </body>
 </html>
